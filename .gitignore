@@ -1,0 +1,4 @@
+**/*.pyc
+.idea/
+src/data/integrity.db
+debug.cfg
