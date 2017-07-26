@@ -15,7 +15,7 @@ from sqlalchemy.ext.declarative import declarative_base
 
 
 DATABASE_PATH = os.path.dirname(os.path.abspath(__file__))
-DATABASE_PATH = os.path.join(DATABASE_PATH, '/data/integrity.db')
+DATABASE_PATH = os.path.join(DATABASE_PATH, 'data/integrity.db')
 
 engine = create_engine('sqlite:///' + DATABASE_PATH)
 
