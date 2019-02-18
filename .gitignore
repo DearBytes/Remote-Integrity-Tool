@@ -1,4 +1,7 @@
 **/*.pyc
+**/*.egg-info
 .idea/
+integrity.db
 src/data/integrity.db
 debug.cfg
+venv/

@@ -4,7 +4,7 @@ from datetime import datetime
 from smtplib import SMTP
 from email.mime.text import MIMEText
 
-from syslog_client import Syslog
+from dear.remote_integrity.syslog_client import Syslog
 
 from telegram.ext import Updater
 

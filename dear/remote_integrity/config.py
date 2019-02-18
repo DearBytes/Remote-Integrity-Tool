@@ -3,7 +3,7 @@
 import os
 from configparser import ConfigParser, NoSectionError, NoOptionError
 
-from exceptions import ConfigurationException
+from dear.remote_integrity.exceptions import ConfigurationException
 
 
 class Config:

@@ -7,7 +7,7 @@ from paramiko import RSAKey
 from paramiko import SSHClient
 from paramiko.ssh_exception import NoValidConnectionsError
 
-from exceptions import ServerException, DirectoryNotFoundException
+from dear.remote_integrity.exceptions import ServerException, DirectoryNotFoundException
 
 
 class Server:

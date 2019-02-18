@@ -23,7 +23,7 @@ To use the database inspection tool, activate the virtual environment and run th
     $ ./remote-integrity --list {servers|checksums|events}
 
 ## Notification example
-![Example of a notification](img/notification.PNG)
+![Example of a notification](docs/notification.PNG)
 
 
 ## Configuration file format

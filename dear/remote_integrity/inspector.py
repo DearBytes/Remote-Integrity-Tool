@@ -2,7 +2,7 @@
 # Copyright (C) 2017 DearBytes B.V. - All Rights Reserved
 from tabulate import tabulate
 
-from models import Server, Checksum, Event
+from dear.remote_integrity.models import Server, Checksum, Event
 
 
 class Inspector:

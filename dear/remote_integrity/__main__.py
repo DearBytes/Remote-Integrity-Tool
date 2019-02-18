@@ -2,13 +2,13 @@
 # Copyright (C) 2017 DearBytes B.V. - All Rights Reserved
 from argparse import ArgumentParser
 
-from exceptions import DearBytesException
-from config import Config
-from inspector import Inspector
-from logger import Logger
-from server import Server
-from integrity import Integrity
-from models import session as database
+from dear.remote_integrity.exceptions import DearBytesException
+from dear.remote_integrity.config import Config
+from dear.remote_integrity.inspector import Inspector
+from dear.remote_integrity.logger import Logger
+from dear.remote_integrity.server import Server
+from dear.remote_integrity.integrity import Integrity
+from dear.remote_integrity.models import session as database
 
 
 def main():

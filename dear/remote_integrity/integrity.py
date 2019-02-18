@@ -1,7 +1,8 @@
 #!/usr/bin/env python
 # Copyright (C) 2017 DearBytes B.V. - All Rights Reserved
 from axel import Event as EventHandler
-from models import database_exists, create_database, DATABASE_PATH, Server, Checksum, Event
+
+from dear.remote_integrity.models import database_exists, create_database, DATABASE_PATH, Server, Checksum, Event
 
 
 class Integrity:
