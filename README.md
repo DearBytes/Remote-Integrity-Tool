@@ -10,17 +10,17 @@ To install the tool, clone the source into a directory of choice and run the fol
 
     $ virtualenv venv                 # Set up a virtual environment
     $ source venv/bin/activate        # Activate the virtual environment
-    $ pip install -r requirements.txt # Install dependencies
+    $ pip install .                   # Install the package (use -e for development)
 
 ## Usage (Remote Integrity tool)
 To use the tool, activate the virtual environment and run the following command:
 
-    $ ./remote-integrity --config {path to config file}.cfg
+    $ remote-integrity --config {path to config file}.cfg
 
 ## Usage (Database Inspection tool)
 To use the database inspection tool, activate the virtual environment and run the following command:
 
-    $ ./remote-integrity --list {servers|checksums|events}
+    $ remote-integrity --list {servers|checksums|events}
 
 ## Notification example
 ![Example of a notification](docs/notification.PNG)

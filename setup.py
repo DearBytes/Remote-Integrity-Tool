@@ -25,7 +25,7 @@ DESCRIPTION = (
 URL = 'https://github.com/DearBytes/Remote-Integrity-Tool'
 EMAIL = 'info@dearbytes.nl'
 AUTHOR = 'Luke Paris (Paradoxis) @ DearBytes'
-REQUIRES_PYTHON = '>=3.6.0'
+REQUIRES_PYTHON = '>=3.5.0'
 
 REQUIRED = [
     'appdirs==1.4.0',
