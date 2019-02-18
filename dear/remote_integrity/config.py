@@ -85,7 +85,11 @@ class Config:
             config.email_noreply_address = parser.get("email", "email_noreply_address") or None
 
             config.telegram_api_token = parser.get("telegram", "telegram_api_token") or None
-            config.telegram_api_chat_id = parser.getint("telegram", "telegram_api_chat_id") or None
+
+            try:
+                config.telegram_api_chat_id = parser.getint("telegram", "telegram_api_chat_id") or None
+            except ValueError:
+                config.telegram_api_chat_id = None
 
             config.logging_syslog_host = parser.get("logging", "logging_syslog_host") or None
 

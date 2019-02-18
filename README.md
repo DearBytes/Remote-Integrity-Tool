@@ -8,10 +8,20 @@ and logs an event if a file gets added, removed or modified.
 ## Installation
 To install the tool, clone the source into a directory of choice and run the following commands:
 
-    $ virtualenv venv                 # Set up a virtual environment
-    $ source venv/bin/activate        # Activate the virtual environment
-    $ pip install .                   # Install the package (use -e for development)
+### Linux / OSX
 
+    $ pip install virtualenv --user     # Install virtualenv (if not installed yet)
+    $ virtualenv venv                   # Set up a virtual environment 
+    $ source venv/bin/activate          # Activate the virtual environment (do this every time you wish to run the tool)
+    $ pip install .                     # Install the package (use -e for development)
+
+### Windows
+
+    C:\Users\You\Integrity> pip install virtualenv --user
+    C:\Users\You\Integrity> virtualenv venv
+    C:\Users\You\Integrity> .\venv\Scripts\activate.bat
+    C:\Users\You\Integrity> pip install .
+    
 ## Usage (Remote Integrity tool)
 To use the tool, activate the virtual environment and run the following command:
 

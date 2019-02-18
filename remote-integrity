@@ -1,3 +1,0 @@
-#!/usr/bin/env bash
-# Copyright (C) 2017 DearBytes B.V. - All Rights Reserved
-python3 src/main.py $@
