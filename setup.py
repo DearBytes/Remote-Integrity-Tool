@@ -44,7 +44,7 @@ REQUIRED = [
     'pyparsing==2.1.10',
     'python-telegram-bot==5.3.0',
     'six==1.10.0',
-    'SQLAlchemy==1.1.5',
+    'SQLAlchemy==1.3.0',
     'tabulate==0.7.7',
     'urllib3>=1.23',
     'virtualenv==15.1.0',
